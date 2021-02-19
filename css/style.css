@@ -1,8 +1,104 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 body {
+    font-family: "Open Sans", sans-serif;
     overflow-x: hidden;
-    background-color: white;
-    color: rgb(156, 137, 137);
-}
+    color: #444444;
+  }
+  
+  a {
+    color: #2487ce;
+  }
+  
+  a:hover {
+    color: #469fdf;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+    transition: all 0.5s;
+    background: #fff;
+    z-index: 997;
+    padding: 15px 0;
+    border-bottom: 1px solid #e6f2fb;
+  }
+  
+  #header.header-scrolled {
+    border-color: #fff;
+    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+  }
+  
+  #header .logo {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #header .logo a {
+    color: #16507b;
+  }
+  
+  #header .logo img {
+    max-height: 40px;
+  }
+  
+  @media (max-width: 992px) {
+    #header .logo {
+      font-size: 28px;
+    }
+  }
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+.nav-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-menu > ul {
+    display: flex;
+  }
+  
+  .nav-menu > ul > li {
+    position: relative;
+    white-space: nowrap;
+    padding: 14px 0 14px 28px;
+  }
+  
+  .nav-menu a {
+    display: block;
+    position: relative;
+    color: #124265;
+    transition: 0.3s;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+    color: #2487ce;
+  }
+  
+  @media (max-width: 768px) {
+    .get-started-btn {
+      margin: 0 48px 0 0;
+      padding: 5px 18px 6px 18px;
+      border-radius: 3px;
+    }
+  }
 
 .jumbotron {
     text-align: center;
@@ -48,15 +144,14 @@ img {
 }
 
 .navbar {
-    position: fixed;
-    bottom: 50px;
+    padding-top: 25px;
+    position: relative;
     width: 100%;
     text-align: center;
-    padding-bottom: 10px;
 }
 
 .footer {
-    position: fixed;
+    text-align: left;
     bottom: 0;
     width: 100%;
     padding-bottom: 10px;
