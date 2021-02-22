@@ -5,6 +5,7 @@ body {
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
   color: #444444;
+  background-color: white;
 }
   
 a {
@@ -17,7 +18,7 @@ a:hover {
 }
   
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -30,12 +31,12 @@ h1, h2, h3, h4, h5, h6 {
   
 #header .title {
   float: left;
-  font-size: 28px;
+  font-size: 45px;
   margin: 0;
   padding: 0;
   font-weight: 300;
   letter-spacing: 0.5px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Ballet', cursive;
 }
   
 #header .title a {
@@ -79,6 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   .carousel {
     float: left;
     text-align: center;
+    margin-top: 20px;
     margin-left: 100px;
     width: 45% !important;
     height: 70vh;
@@ -104,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 
 h3 {
-    font-family: 'Dancing Script', cursive;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
 }
 
@@ -124,6 +126,14 @@ h3 {
   padding-left: 100px;
   bottom: 0;
   width: 100%;
+}
+
+.click {
+  color: gray;
+}
+
+.click:hover {
+  color: #1B1B3A;
 }
 
 .active-input-group {
