@@ -1,63 +1,98 @@
 <!DOCTYPE html>
+
 <head>
     <title>[Enter Cause Here]</title>
-    
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <!-- <script src="js/script.js"></script> -->
+    <script src="js/script.js"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header id="header" class="fixed-top">
-    <div class="container">
-      <h1 class="logo"><a href="index.html">[Title]</a></h1>
-      <nav class="nav-menu">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#donate.html">Donate</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-    </div>
-  </header><!-- End Header -->
+    <header id="header">
+        <h1 class="title"><a href="index.html">[Title]</a></h1>
+        <nav class="nav-menu">
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="charity.html">Charity</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-    <div class="container">
-        <div class="jumbotron col-xs-12 col-sm-12 col-md-12">
-            <h1>Title</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </div>
-    <div class="row three-box">
-        <div class="box about col-xs-12 col-sm-4 col-md-4">
-            <h3>Header</h3>
-            <p>Cras aliquam imperdiet erat nec consequat. Cras eget ligula eu dolor gravida ornare sit amet vel mauris. Integer iaculis bibendum nisl, imperdiet sollicitudin ex euismod id. Vestibulum hendrerit congue vulputate. Nulla blandit sollicitudin facilisis. Aenean tempor vestibulum justo, quis tincidunt ante commodo eget. Sed efficitur eget sapien vulputate condimentum.</p>
-            <img src="https://www.thesprucepets.com/thmb/sfuyyLvyUx636_Oq3Fw5_mt-PIc=/3760x2820/smart/filters:no_upscale()/adorable-white-pomeranian-puppy-spitz-921029690-5c8be25d46e0fb000172effe.jpg">
-        </div>
-        <div class="box goal col-xs-12 col-sm-4 col-md-4">
-            <h3>Header</h3>
-            <p>Fusce ut eros sit amet magna elementum feugiat. Proin ac leo blandit, mollis felis a, aliquet turpis. Nam sagittis, nulla a sagittis pulvinar, mi ex ornare mi, tempor sodales mi mauris eget elit. Praesent bibendum porta sapien, et gravida metus commodo vel. Vivamus tristique mollis turpis, sed fringilla tortor sagittis et. Integer eu hendrerit ex. Cras et nisi orci. Maecenas eget lacus vel massa mattis pharetra vitae aliquam magna. Donec at porttitor velit.</p>
-            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2019%2F08%2Fcorgi-dog-name-POPDOGS0819.jpg">
-        </div>
-        <div class="box defeat col-xs-12 col-sm-4 col-md-4">
-            <h3>Header</h3>
-            <p>Donec imperdiet dignissim tincidunt. Morbi nec vehicula mi. Integer ac lacus nibh. Praesent vel ipsum tellus. Curabitur ornare nibh non sem sollicitudin, mollis finibus ipsum dapibus. Cras quam ipsum, dignissim id massa a, mollis hendrerit metus. Proin vestibulum nibh sit amet mi aliquam, id aliquam lectus semper.</p>
-            <img src="https://cdn.pixabay.com/photo/2019/08/19/07/45/dog-4415649__340.jpg">
-        </div>
-    </div>
-    <div class="footer">
-        <div class="button col-xs-12 col-sm-8 col-md-10">
-            <div class="input-group">
-                <h3>About Us</h3>
-                <p>Jia Qi He, Sumiya A, Li Gao</p>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active"
+                style="background-image: url(https://cf.ltkcdn.net/dogs/images/orig/235430-2000x1332-australian-shepherd-puppy.jpg);">
+                <img src="https://cf.ltkcdn.net/dogs/images/orig/235430-2000x1332-australian-shepherd-puppy.jpg"
+                    alt="Los Angeles" style="width:100%;">
             </div>
+
+            <div class="item"
+                style="background-image: url(https://www.petmd.com/sites/default/files/styles/article_image/public/petmd-puppy-weight.jpg?itok=IwMOwGSX);">
+                <img src="https://www.petmd.com/sites/default/files/styles/article_image/public/petmd-puppy-weight.jpg?itok=IwMOwGSX"
+                    alt="Chicago" style="width:100%;">
+            </div>
+
+            <div class="item"
+                style="background-image: url(https://www.readersdigest.ca/wp-content/uploads/2013/03/6-facts-to-know-before-owning-a-puppy.jpg);">
+                <img src="https://www.readersdigest.ca/wp-content/uploads/2013/03/6-facts-to-know-before-owning-a-puppy.jpg"
+                    alt="New york" style="width:100%;">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="box about" style="float: right;">
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac pharetra odio. Duis et felis 
+            molestie, porta sem eu, ullamcorper tellus. Nam id auctor neque. Vivamus dictum, nunc eu scelerisque 
+            mollis, sapien eros vulputate erat, id tempor ex mi eget tellus. Quisque in neque non libero luctus 
+            tristique. Vivamus auctor sed ipsum a faucibus. Ut volutpat mattis molestie. Orci varius natoque 
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam condimentum arcu eget pretium 
+            ultricies.</p>
+        <h3>Header</h3>
+        <p>Proin nec pellentesque tellus. Morbi ut erat facilisis diam lobortis placerat. Nulla feugiat risus in 
+            tempor varius. Curabitur mollis neque elit, eget sagittis odio lacinia eget. Aenean justo ipsum, 
+            viverra at elementum id, sollicitudin et sapien. Vestibulum sit amet nibh vitae leo tempor porttitor. 
+            In fringilla risus ex, at ultrices erat eleifend eu.</p>
+        <h3>Header</h3>
+        <p>Nulla id mi faucibus, egestas ipsum id, imperdiet nulla. Aenean tristique molestie tincidunt. Proin sit 
+            amet lorem sollicitudin ante ultricies accumsan id vel est. Integer a nunc risus. Vestibulum id ligula 
+            cursus, efficitur ipsum viverra, ornare dolor. Nullam sodales, ligula volutpat sollicitudin sollicitudin, 
+            tortor urna feugiat felis, ullamcorper elementum odio eros eu dui. In hac habitasse platea dictumst. Donec 
+            semper justo vitae lectus congue, id faucibus nisi blandit. Lorem ipsum dolor sit amet, consectetur adipiscing 
+            elit. Quisque ultricies posuere facilisis.</p>
+    </div>
+
+    <div class="footer">
+        <div class="active-input-group">
+            <h3>About Us</h3>
+            <p>Jia Qi He, Sumiya Akter, Li Gao</p>
+        </div>
+        <div class="input-group">
+
         </div>
     </div>
 
